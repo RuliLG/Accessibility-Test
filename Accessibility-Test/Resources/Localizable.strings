@@ -1,0 +1,1251 @@
+
+/*Localizable.strings
+  eChargeApp
+
+  Created by Hannes on 30.10.18.
+  Copyright © 2018 Trafineo. All rights reserved.
+
+* ONBOARDING SECTION
+ Subtitle of the first onboarding screen*/
+"welcomeCell1_subHeadline" = "Full Energy For Your Fleet.";
+
+/*Title of the second onboarding screen*/
+"welcomeCell2_headline" = "Find Charging Stations";
+
+/*Subtitle of the second onboarding screen*/
+"welcomeCell2_subHeadline" = "Simple and fast.";
+
+/*Second paragraph of the second onboarding screen*/
+"welcomeCell2_text_2" = "As soon as you select a charging station on the map, all connectors at the station are displayed with additional information (such as charging power, current availability, price and distance).";
+
+/*Button label in the onboarding section to go to the main app view*/
+"welcome_ready_to_start" = "I've got it. Let's go!";
+
+/*Loading text shown upon the first launch of the app to notify the user of a long wait*/
+"welcome_waiting_text" = "The app is being initially prepared.\nThis may take a few seconds...";
+
+/** SIDE MENU
+ Menu item label leading to Login*/
+"menu_login" = "Login";
+
+/*Menu header section label for login hint when user is currently logged out*/
+"menu_login_access_advanced_features" = "Please log in to use advanced features.";
+
+/*Menu header section label for login hint when user is currently logged out*/
+"menu_login_card_activation_disclaimer" = "The activation of your Fuel & Charge Card can take up to 24 hours (after receipt).";
+
+/*Menu header section label for the card number when user is currently logged in*/
+"menu_card_number" = "Card Number";
+
+/*Menu header section label for the card number when user is currently logged in*/
+"menu_emaid" = "EMAID";
+
+/*Menu item label leading to Logout*/
+"menu_logout" = "Logout";
+
+/*Menu item label leading to My vehicle section*/
+"menu_vehicle" = "My Vehicle";
+
+/*Menu item label leading to Remote charging section (not included in app in 2.0.4)*/
+"menu_charging" = "Start / Stop Charging";
+
+/*Menu item label leading to About section*/
+"menu_about" = "About the App";
+
+/*Menu item label leading to FAQ section*/
+"menu_faq" = "Frequent Questions";
+
+/*Menu item label leading to Support section*/
+"menu_support" = "Support";
+
+/*Menu item label leading to Imprint section*/
+"menu_imprint" = "Imprint";
+
+/** LOGIN SECTION
+ Card number label in the Login screen*/
+"login_card_number" = "Card Number";
+
+/*Card expiry label in the Login screen*/
+"login_card_expiry" = "Expiry date (MM/YY)";
+
+/*Error message for wrong expiry date format in the Login screen*/
+"login_expiry_date_not_the_correct_length" = "Expiry date does not have the correct format (MMYY).";
+
+/*Error message for wrong length of card number in the Login screen*/
+"login_card_number_not_the_correct_length" = "Card number does not have the correct format.";
+
+/*General error message for trying to log in in the Login screen*/
+"login_error" = "Error while logging in. Please check your card credentials and try again.";
+
+/** CHARGEPOINT DETAIL SECTION
+ Text for occupied state for chargepoint, shown on chargepoint list, overlay and details*/
+"detail_occupied" = "Occupied";
+
+/*Text for unknown state for chargepoint, shown on chargepoint list, overlay and details*/
+"detail_unknown" = "Unknown";
+
+/*Text for available state for chargepoint, shown on chargepoint list, overlay and details*/
+"detail_available" = "Available";
+
+/*Text for reserved state for chargepoint, shown on chargepoint list, overlay and details*/
+"detail_reserved" = "Reserved";
+
+/*Text for out-of-service state for chargepoint, shown on chargepoint list, overlay and details*/
+"detail_outofservice" = "Out of service";
+
+/*Text for out-of-service state for chargepoint, shown on chargepoint list, overlay and details*/
+"detail_outservice" = "Out of service";
+
+/*Message to show when price information is not available for a chargepoint on CP detail page*/
+"detail_unavailable_price" = "No price information available.";
+
+/*Additional text that is shown when UK Chargepoint details are viewed*/
+"detail_uk_legal_info_text" = "//DELETED// For network usage in UK an additional subscription fee of 6.54 GBP (excl. VAT) per used month applies. //DELETED//\n\n";
+
+/*Support text to show on charge point detail page*/
+"detail_in_case_of_problems" = "If you are experiencing any technical problems with the charging station, please contact the operator directly. There will usually be a label on the charging station with the operator's contact details.";
+
+/*Prices label above tariff information section in CP detail page*/
+"detail_prices" = "Tariff Information";
+
+/*Per KwH label for price info in CP detail page*/
+"detail_price_per_kwh" = "per kWh";
+
+/*Per session label for price info in CP detail page*/
+"detail_price_per_session" = "per session";
+
+/*Per minute label for price info in CP detail page*/
+"detail_price_per_minute" = "per minute";
+
+/*Per hour label for price info in CP detail page*/
+"detail_price_per_hour" = "per hour";
+
+/*Per parking label for price info in CP detail page*/
+"detail_price_per_parking" = "Parking per started hour";
+
+/*Starting fee for price info in CP detail page*/
+"detail_price_starting_fee" = "Starting fee";
+
+/*Title to show for support section on CP detail page*/
+"detail_support_header" = "Do you have charging problems?";
+
+/*Operator label in support section of CP detail page*/
+"detail_cpo_name" = "Operator: ";
+
+/*EVSE-ID label in support section of CP detail page*/
+"detail_evseid_name" = "Charge Point-ID (EVSEID): ";
+
+/*Title of Opening times section for chargepoint*/
+"detail_opening_times_title" = "Regular Opening Hours";
+
+/*Text label to show for opening hours for chargepoints that are open 24 hours a day*/
+"detail_opening_times_247" = "00:00 - 24:00";
+
+/*Label for opening hours*/
+"detail_days_mon" = "Monday";
+
+/*Label for opening hours*/
+"detail_days_tue" = "Tuesday";
+
+/*Label for opening hours*/
+"detail_days_wed" = "Wednesday";
+
+/*Label for opening hours*/
+"detail_days_thu" = "Thursday";
+
+/*Label for opening hours*/
+"detail_days_fri" = "Friday";
+
+/*Label for opening hours*/
+"detail_days_sat" = "Saturday";
+
+/*Label for opening hours*/
+"detail_days_sun" = "Sunday";
+
+/*Legal text for opening hours section*/
+"detail_opening_times_closed_legal" = "Charging is not allowed when facility is closed.";
+
+/*Legal text for opening hours section*/
+"detail_opening_times_unkown_legal" = "Charging might not be allowed when facility is closed. Please inform on site.";
+
+/*Title label for charge point details page*/
+"detail_header_title" = "Charge Point Details";
+
+/** IMPRINT SECTION
+ Title label for imprint view*/
+"imprint_title" = "Imprint & Legal";
+
+/*Subtitle label for imprint view*/
+"imprint_data_headline" = "Your data is in safe hands";
+
+/*One of the header labels on imprint view*/
+"imprint_data_subHeadline" = "This is how we treat your data.";
+
+/*Button on imprint view that leads to the privacy section*/
+"imprint_data_policy_button_text" = "Data Privacy Statement";
+
+/*Label on imprint view*/
+"imprint_text_1" = "Information according to § 5 TMG, § 55 para. 2 RStV and § 2 DL-InfoV";
+
+/*Label on imprint view*/
+"imprint_text_2" = "Trafineo GmbH & Co. KG";
+
+/*Label on imprint view*/
+"imprint_text_3_address" = "Wittener Straße 56";
+
+/*Label on imprint view*/
+"imprint_text_3_postal" = "44789 Bochum";
+
+/*Label on imprint view*/
+"imprint_text_3_country" = "Germany";
+
+/*Label on imprint view*/
+"imprint_text_4" = "Trafineo GmbH & Co. KG is a company incorporated under German law with its registered office in Bochum, Germany, registered at the local court of Bochum under HRA 6945.";
+
+/*Label on imprint view*/
+"imprint_text_5_telefon" = "Phone +49 234 893777-0";
+
+/*Label on imprint view*/
+"imprint_text_5_telefax" = "Fax +49 234 893777-19";
+
+/*Label on imprint view*/
+"imprint_text_5_mail" = "E-Mail info@trafineo.com";
+
+/*Label on imprint view*/
+"imprint_text_5_internet" = "Internet www.trafineo.com";
+
+/*Label on imprint view*/
+"imprint_text_6" = "VAT no.: DE266451114";
+
+/*Label on imprint view*/
+"imprint_text_7" = "Trafineo GmbH & Co. KG is represented by its general partner, Trafineo Verwaltungs-GmbH, with its registered office in Bochum, Germany, registered at the local court of Bochum under HRB 14645, and represented by its managing director Bernd Veith";
+
+/*Label on imprint view*/
+"imprint_text_8" = "Responsible according to § 55 Abs. 2 RStV";
+
+/*Label on imprint view*/
+"imprint_text_10_name" = "Bernd Veith";
+
+/*Label on imprint view*/
+"imprint_text_10_address" = "Wittener Straße 56";
+
+/*Label on imprint view*/
+"imprint_text_10_postal" = "44789 Bochum";
+
+/*Label on imprint view*/
+"imprint_text_10_country" = "Germany";
+
+/*Label on imprint view*/
+"imprint_text_11" = "Technical management, design and realization: \nTrafineo GmbH & Co.KG";
+
+/*Label on imprint view*/
+"imprint_further_information" = "Further Information";
+
+/*Label on imprint view*/
+"imprint_further_detail" = "Trafineo GmbH & Co. KG provides the services on behalf of B2Mobility GmbH, Wittener Str. 45, D-44789 Bochum, Germany for the brands BP and Aral.";
+
+/*Label on imprint view*/
+"imprint_text_12_1" = "Online dispute resolution according to Art. 14 para. 1 ODR-VO";
+
+/*Label on imprint view*/
+"imprint_text_13_1" = "The European Commission provides a platform for online dispute resolution (OS) available at ";
+
+/*Label on imprint view*/
+"imprint_text_13_2" = ". We do not participate in a dispute settlement procedure before a consumer arbitration board and are not obliged to do so.";
+
+/*Label on imprint view*/
+"imprint_text_14" = "Liability for content";
+
+/*Label on imprint view*/
+"imprint_text_15_1" = "The content of this app has been created with the utmost care. However, we cannot accept any liability for the correctness, completeness and topicality of the content. In accordance with § 7 para.1 TMG, we as a service provider are responsible for our own content on these pages under general laws. According to § 7 para. 2 TMG, we are not obliged within the scope of §§ 8 to 10 TMG to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information according to general laws remain unaffected.";
+
+/*Label on imprint view*/
+"imprint_text_15_2" = "Our offer contains links to external websites of third parties, on the content of which we have no influence and for the content of which we therefore cannot accept any liability. The link only gives you access for use. For the content of the linked sites the respective provider or operator of the sites is always responsible. The linked pages were checked at the time of linking for possible violations of law. Illegal contents were not recognizable at the time of linking. However, a permanent control of the contents of the linked pages is not reasonable without concrete evidence of a violation of the law. If we become aware of any violations, we will remove such links immediately.";
+
+/*Label on imprint view*/
+"imprint_text_15_3" = "Trafineo GmbH & Co. KG excludes all liability in the above context.";
+
+/*Label on imprint view*/
+"imprint_text_15_4" = "The information provided by Trafineo GmbH & Co. KG in this app are subject to German copyright law. The reproduction, editing, distribution and any kind of use require the written consent of the creator or the respective author. Downloads and copies of this website are only permitted for private use, but not for commercial use.";
+
+/*Label on imprint view*/
+"imprint_text_16" = "Applicable law";
+
+/*Label on imprint view*/
+"imprint_text_16_1" = "The legal information on this site as well as all questions and disputes in connection with this app are subject to the law of the Federal Republic of Germany.";
+
+/** FILTER SECTION
+ Title of filter page*/
+"filter_nav_title" = "Filter";
+
+/*Subtitle of vehicles section in filter view*/
+"filter_vehicles_title" = "Set filters for vehicle models";
+
+/*All vehicles option in filter view*/
+"filter_all_vehicles" = "All vehicle models";
+
+/*Add new vehicle button label in filter view*/
+"filter_new_vehicle" = "Store your own vehicle";
+
+/*Title of Connector types section in filter view*/
+"filter_connector_title" = "Connector types";
+
+/*Title of availability section in filter view*/
+"filter_availability_title" = "Availability";
+
+/*Label of availability option in filter view*/
+"filter_available_title" = "Available";
+
+/*Plug type label*/
+"filter_connector_ccs" = "CCS Combo";
+
+/*Plug type label*/
+"filter_connector_cha" = "CHAdeMO";
+
+/*Plug type label*/
+"filter_connector_t1s" = "Type 1";
+
+/*Plug type label*/
+"filter_connector_t2s" = "Type 2";
+
+/*Plug type label*/
+"filter_connector_t3s" = "Type 3";
+
+/*Plug type label*/
+"filter_connector_hss" = "Other";
+
+/*Plug type label*/
+"filter_connector_tfs" = "Type F (EU; 2-pin)";
+
+/*Button label for resetting the filters in filter view*/
+"filter_reset_button" = "Reset";
+
+/*Label for Charging power setting in filter view*/
+"filter_charging_power_label" = "Charge points with charging power (kW) of";
+
+/** VEHICLE SECTION
+ Label for description of car in add/edit vehicle view*/
+"vehicle_add_car_description" = "Please specify your vehicle details for being used for calculations and filters.";
+
+/*Label for connector types section in add/edit vehicle view*/
+"vehicle_add_connectors_title" = "COMPATIBLE CONNECTOR TYPES";
+
+/*Label for car name input field in add/edit vehicle view*/
+"vehicle_add_car_name" = "Your vehicle name";
+
+/*Label for battery slider in add/edit vehicle view*/
+"vehicle_add_car_capacity" = "Battery capacity";
+
+/*Button label for saving changes in add vehicle view*/
+"vehicle_add_car_button_text" = "Save";
+
+/*Button label for saving changes in edit vehicle view*/
+"vehicle_edit_car_button_text" = "Save";
+
+/*Title of dialog popup that comes up when deleting vehicle*/
+"vehicle_list_delete_dialog_title" = "Delete vehicle";
+
+/*Body text of dialog popup that comes up when deleting vehicle*/
+"vehicle_list_delete_dialog_text" = "Do you want to delete this vehicle?";
+
+/*Yes button in delete dialog in vehicle view*/
+"vehicle_list_delete_dialog_yes" = "Yes";
+
+/*No button in delete dialog in vehicle view*/
+"vehicle_list_delete_dialog_no" = "No";
+
+/*Text that shows up on the vehicle list view if no vehicle is added yet*/
+"vehicle_list_empty_text_label" = "You have not added your vehicle yet.";
+
+/*Button label for adding a vehicle in empty vehicle list view*/
+"vehicle_list_empty_add_button_label" = "Add vehicle";
+
+/*Button label for adding a vehicle to favorites*/
+"vehicle_list_mark_as_favourite" = "Mark as favourite";
+
+/*Button label for removing a vehicle from favorites*/
+"vehicle_list_unmark_as_favourite" = "Unmark as favourite";
+
+/*Error message when a vehicle name is provided that is too short*/
+"vehicle_name_too_short" = "Given name is too short. Please choose a longer name.";
+
+/*Error message when no capacity is provided when adding a new vehicle*/
+"vehicle_no_battery_capacity" = "You have not specified any battery capacity. Please choose the capacity of your vehicle battery with the slider.";
+
+/*Error message when trying to add a new vehicle whose name already exists*/
+"vehicle_name_exists" = "This name already exists. Please choose a different one.";
+
+/** GENERAL STRINGS
+ Click for more details text that is displayed across the app, e.g. on the charge point overlay view*/
+"common_click_here_more_details" = "Click here for more details";
+
+/*Clickable Navigation text shown in the charge point detail view*/
+"common_start_navigation" = "Navigate";
+
+/*Error text that is shown across the app, e.g. as the title of an error allert dialog*/
+"common_error" = "Error";
+
+/*Search bar placeholder text*/
+"searchBarBox_search_placeholder" = "Search";
+
+/** PROPER PLUG TYPE NAMES, NOT USED IN APP CURRENTLY
+ Translation not needed*/
+"m_type_f_schuko" = "Type F (EU; 2-Pin)";
+
+/*Translation not needed*/
+"m_ccs_combo_type_2" = "CCS Combo Type 2";
+
+/*Translation not needed*/
+"m_ccs_combo_type_1" = "CCS Combo Type 1";
+
+/*Translation not needed*/
+"m_iec_60309_2" = "CEE 16/32/64A (red; 5-Pin)";
+
+/*Translation not needed*/
+"m_iec_60309_2_single" = "CEE 16A (blue; 3-Pin)";
+
+/*Translation not needed*/
+"m_type_j_switzerland_3_pin" = "Type J (Switzerland; 3-Pin)";
+
+/*Translation not needed*/
+"m_spi_magne_charge" = "SPI (Magne Charge)";
+
+/*Translation not needed*/
+"m_lpi_magne_charge" = "LPI (Magne Charge)";
+
+/*Translation not needed*/
+"m_type_b_usa_japan" = "Type B (USA/Japan; 3-Pin)";
+
+/*Translation not needed*/
+"m_type_e_france_2_pin" = "Type E (France; 2-Pin)";
+
+/*Translation not needed*/
+"m_type_g_uk_3_pin" = "Type G (UK; 3-Pin Square)";
+
+/*Translation not needed*/
+"m_cee_16a_3pin" = "CEE 16A (blue; 3-Pin)";
+
+/*Translation not needed*/
+"m_cee_16_5pin" = "CEE 16/32/64A (red; 5-Pin)";
+
+/*Translation not needed*/
+"m_type_a" = "Type A (USA/Japan; 2-Pin)";
+
+/*Translation not needed*/
+"m_type_b" = "Type B (USA/Japan; 3-Pin)";
+
+/*Translation not needed*/
+"m_type_c" = "Type C (EU/Asia; 2-Pin)";
+
+/*Translation not needed*/
+"m_type_d" = "Type D (India; 3-Pin)";
+
+/*Translation not needed*/
+"m_type_e" = "Type E (France; 2-Pin)";
+
+/*Translation not needed*/
+"m_type_f" = "Type F (EU; 2-Pin)";
+
+/*Translation not needed*/
+"m_type_g" = "Type G (UK; 3-Pin Square)";
+
+/*Translation not needed*/
+"m_type_h" = "Type H (Israel; 3-Pin Square)";
+
+/*Translation not needed*/
+"m_type_i" = "Type I (Australia/China; 2/3-Pin)";
+
+/*Translation not needed*/
+"m_type_j" = "Type J (Switzerland; 3-Pin)";
+
+/*Translation not needed*/
+"m_type_k" = "Type K (Denmark; 3-Pin)";
+
+/*Translation not needed*/
+"m_type_l" = "Type L (Italy; 3-Pin)";
+
+/*Translation not needed*/
+"m_tesla_roadster" = "Tesla Roadster (4-Pin)";
+
+/*Translation not needed*/
+"m_tesla_type_2" = "Tesla Type 2";
+
+/*Translation not needed*/
+"m_unspecified" = "Unknown";
+
+/** REMOTE CHARGE TAKEN OUT OF APP AT THE MOMENT
+ Translation not needed*/
+"remote_evse_id_too_short" = "The EVSEID is too short.";
+
+/*Translation not needed*/
+"remote_cp_not_enabled" = "This charge point is not enabled for Remote Charging. Please swipe your card at the charging station.";
+
+/*Translation not needed*/
+"remote_charging" = "Remote Charging";
+
+/*Translation not needed*/
+"remote_toggle_charging_session" = "Start/stop your charging session right from the app";
+
+/*Translation not needed*/
+"remote_start_charging_session" = "Start charging";
+
+/*Translation not needed*/
+"remote_login_reason" = "Remote Charging enables you to start / stop charging sessions right from the app for selected charge points.\n\nPlease log in to your account for using it.";
+
+/*Translation not needed*/
+"remote_login" = "Login";
+
+/*Translation not needed*/
+"remote_stop_charging_session" = "Finish charging";
+
+/*Translation not needed*/
+"remote_type_or_scan" = "Type in the charge point ID (EVSEID) or scan the QR-code from the charging station:";
+
+/*Translation not needed*/
+"remote_not_part_of_network" = "This charge point is not part of our network.";
+
+/*Translation not needed*/
+"remote_camera_access_denied" = "Camera access denied. Please enable camera access in settings.";
+
+/*Translation not needed*/
+"remote_button_scan" = "Scan QR-code From Charging Station";
+
+/*Translation not needed*/
+"remote_evse_id_placeholder" = "EVSEID";
+
+/*Translation not needed*/
+"remote_evse_id_format_error" = "EVSEID not recognized";
+
+/*Translation not needed*/
+"remote_leaving_not_allowed" = "You cannot leave while charging…";
+
+/** SUPPORT SECTION TAKEN OUT OF APP AT THE MOMENT
+ Translation not needed*/
+"support_fc_card_number" = "Your F&C Card number: ";
+
+/*Translation not needed*/
+"support_emaid" = "Your EMAID: ";
+
+/*Translation not needed*/
+"support_quick_help_road_title" = "Quick help for you on the road";
+
+/*Translation not needed*/
+"support_quick_help_road" = "In case of experiencing any issues during the charging session please read the page “Frequent Questions”. For common problems we have provided you with a respective answer there.";
+
+/*Translation not needed*/
+"support_charging_problems_title" = "Feedback";
+
+/*Translation not needed*/
+"support_charging_problems" = "If you are experiencing any technical problems with the charging station, please contact the operator directly. There will usually be a label on the charging station with the operator's contact details.";
+
+/*Translation not needed*/
+"support_faq_button" = "Frequent Questions";
+
+/*Translation not needed*/
+"support_availability_header" = "Availability:";
+
+/*Translation not needed*/
+"support_availability_days" = "Monday to Friday";
+
+/*Translation not needed*/
+"support_availability_time" = "8 a.m. – 5 p.m.";
+
+/*Translation not needed*/
+"support_contact_de" = "DE: +49 (0)800 01 69 77 5    (free of charge from Germany)";
+
+/*Translation not needed*/
+"support_contact_nl" = "NL: +31 (0)800 02 03 63 1    (free of charge from the Netherlands)";
+
+/*Translation not needed*/
+"support_contact_at" = "AT: +43 (0)810 55 57 20      (up to 10 Ct./min. within Austria)";
+
+/*Translation not needed*/
+"support_contact_uk" = "UK: +44 (0)345 60 30 72 3    (free of charge from UK)";
+
+/*Price per minute in the bottom view cell (map view)*/
+"map_price_per_minute" = "minute";
+
+/*Price per hour in the bottom view cell (map view)*/
+"map_price_per_hour" = "hour";
+
+/*Navigation Bar "Back button" text*/
+"common_back" = "Back";
+
+/*Layover message for loading charging network*/
+/*Text for map loading indicator*/
+"common_loading" = "Loading";
+
+/*No available connection message*/
+"common_not_connected" = "Please check your network connection and retry again.";
+"gps_unavailable_text" = "GPS is currently not available. Please allow location services in your systems settings.";
+
+/*GPS switched off: Prompt headline*/
+"toast_user_location_header" = "Current position not found.";
+
+/*GPS switched off: Prompt explanation*/
+"toast_user_location_explanation" = "Click here for allowing location services in your systems settings.";
+"detail_price_user_logged_out_login" = "Log in here";
+
+/*Logout dialogue text*/
+"menu_logout_text" = "Would you like to log out?";
+
+/*String got obsolete now since just one vehicle can be stored anymore. DELETE.*/
+/*Fuzzy*/
+"filter_current_vehicle" = "Current vehicle:";
+"user_location_permission_explanation_android_only" = "Please allow the usage of your current position for being able to use the basic features of this app.";
+
+/*Price per session in the bottom view cell (map view)*/
+"map_price_per_session" = "session";
+"detail_accepted_payment_methods" = "Accepted: ";
+
+/*Station details: Section to report problems on given station information (Headline)*/
+"detail_information_correct_header" = "Is all information displayed correct?";
+
+/*Station details: Section to report problems on given station information (Explanation text with link to web viewer with form)*/
+/*Fuzzy*/
+"detail_information_correct_body" = "Click here to report any inaccuracies with the information displayed on this page.";
+"welcome_next" = "Next";
+"welcome_skip" = "Skip";
+"welcome_registration" = "Registration";
+"registration_login_now" = "Login now";
+"welcome_already_registered" = "You are already registered?";
+"welcome_continue" = "Continue";
+"welcome_expiry_no_hint" = "Expiry Date";
+"welcome_vehicle_text" = "You can add your own vehicle model on the app in order to be able to filter for suitable charge points and receive correct calculations within the app.";
+"detail_price_from" = "from";
+"detail_price_to" = "to";
+
+/*Used on a connector pricing information to collapse if more prices available.*/
+"detail_price_tap_collapse" = "Tap to collapse";
+
+/*Used on a connector pricing information to expand if more prices available.*/
+"detail_price_tap_expand" = "Tap for more details";
+
+/*First Name Hint for registration progress*/
+"first_name" = "First Name";
+
+/*Last Name Hint for registration process.*/
+"last_name" = "Last Name";
+"email" = "E-Mail";
+"vehicle_current_title" = "Your current vehicle";
+"vehicle_current_stored_text" = "This vehicle is stored in your account.";
+"vehicle_current_show" = "Show details";
+"vehicle_current_change" = "Change vehicle";
+"vehicle_details_info" = "Vehicle information";
+"vehicle_details_select" = "Select";
+"vehicle_details_connector_types" = "Compatible connector types";
+"vehicle_details_max_distance" = "Max. range";
+"vehicle_search_title" = "Vehicle model & version";
+"vehicle_search_no_result" = "Cannot find your vehicle?";
+"vehicle_search_report" = "Report to us";
+"detail_price_after" = "after";
+"detail_price_min" = "min.";
+"detail_price_per" = "Per";
+
+/*Header text on nearby list based on user location*/
+"list_nearby_stations_header" = "Nearby stations";
+
+/*Headline text for searched results on nearby list view*/
+"list_nearby_search_results_for" = "Search results for";
+"list_nearby_empty" = "There are no charging stations available in this area yet.";
+"list_favorite_empty" = "You have not yet marked any charging stations as Favorites.";
+
+/*choose vehicle headline*/
+"vehicle_list_header_text_label" = "Add your own vehicle";
+
+/*Choose vehicle description*/
+"vehicle_list_body_text_label" = "You can add your own vehicle model here in order to be able to filter for suitable charge points and receive correct calculations within the app.";
+
+/*kWh text indicating max power in any of the connectors from that station*/
+"list_item_kwh_up_to" = "up to";
+
+/*"Price" text*/
+"common_price" = "Tariff information";
+"list_favorites_header" = "My Favorites";
+
+/*Evse ID manual introduction modal*/
+"detected_evse_id" = "Chosen / detected charge point ID:";
+
+/*Confirm button*/
+"common_confirm" = "Confirm";
+
+/*Remote charging*/
+"remote_evse_id_format_error_text" = "Charge point ID (EVSEID) could not be recognized or is not part of our network. Please try to type in the EVSEID manually or use your Fuel & Charge Card at the charging station.\n\nIt is also possible that the given charge point is unavailable at the moment.";
+
+/*Apply button text*/
+"common_apply" = "Apply";
+
+/*text displayed in overlay when there is no prices for a certain chargepoint*/
+"no_tariff_information_available" = "No tariff information available at this location.";
+
+/*charging flow step 1 title*/
+"charging_instructions" = "Instructions";
+
+/*charging flow step 1 text*/
+"charging_step_1" = "Connect your vehicle and tap \"Start Charging\".";
+
+/*charging flow step 2 text*/
+"charging_initiating" = "Initiating your charging session...";
+
+/*charging flow step 3 title*/
+"charging_active_session" = "Active charging session";
+
+/*charging flow step 3 text*/
+/*Fuzzy*/
+"charging_car_charging" = "Your vehicle is charging.\nTo unplug your vehicle, click \"Finish charging\" to release the connector.";
+
+/*charging flow step 3 text (connection issues)*/
+/*Fuzzy*/
+"charging_connection_issues" = "Your session might have become active, but we are having connection issues.";
+
+/*charging flow step 3 button text (connection issues)*/
+"charging_back_to_map" = "Go back to map";
+
+/*charging flow finishing text*/
+"charging_finishing_session" = "Finishing your charging session...";
+
+/*charging flow finishing text issues*/
+/*Fuzzy*/
+"charging_finishing_session_issues" = "Finishing the charging process is taking longer than expected. \n\nIf you skip, please make sure the charge session was ended correctly.";
+
+/*charging flow skip and end button*/
+"charging_skip_and_end" = "Skip and end";
+
+/*charging flow skip finish alert title*/
+"charging_skip_alert_title" = "Skip";
+
+/*charging flow skip finish alert text*/
+"charging_skip_alert_text" = "Are you sure you want to skip ending the charging session?";
+
+/*user logged out in favorites list*/
+"list_favorite_logged_out" = "Please log in for having your favorite charging stations listed here.";
+
+/*text for alert prompt to indicate user that they must login before favoriting*/
+"add_favorite_logged_out" = "You have to be logged-in for using this feature. Please login.";
+"versioncheck_update_required_title" = "Update required";
+"versioncheck_update_required_message" = "There is an update required for making further use of this app. Please update it through the app store.";
+"versioncheck_update_button" = "Update";
+"versioncheck_update_recommended_title" = "Update available";
+"versioncheck_update_recommended_message" = "There is an update available for this app. We recommend to update it through the app store in order to ensure that you always make use of the latest features.";
+"versioncheck_notnow_button" = "Not right now";
+"versioncheck_no_connection_title" = "No connection";
+"versioncheck_no_connection_message" = "Initial configuration failed";
+"versioncheck_retry_button" = "Retry";
+
+/*Register button*/
+"register" = "Register";
+
+/*otp error*/
+"otp_wrong_code" = "The entered code is invalid. Please type in the correct code from the e-mail on your mailbox and try again.";
+
+/*Explanation of why we need users data*/
+"registration_data_explanation" = "Register a Fuel & Charge account with your company e-mail address. In the next step you will receive a one-time code to this address.";
+
+/*Password*/
+"password" = "Password";
+
+/*Confirm Password*/
+"confirm_password" = "Repeat Password";
+
+/*@Mica: Added disclaimer*/
+/*Reset Password*/
+"reset_password" = "We have sent a one-time code to your specified e-mail address. Enter it here and set your new password. \nPlease also check your spam e-mail folder.";
+
+/*Registration reset password cta*/
+"finish_registration" = "Finish";
+
+/*common*/
+"forgot_password" = "Forgotten your password?";
+
+/*Information text on login with e-mail address and password*/
+/*user data explanation on login*/
+"login_data_explanation" = "Login with your Fuel & Charge account to benefit from all of the app's features.";
+
+/*header for system dialog prompt: logout while user charges*/
+"dialog_currently_charging_header" = "Charging session active";
+
+/*explanation for system dialog prompt: logout while user charges*/
+"dialog_currently_charging_explanation" = "Before proceeding with the logout, please stop your active charging session first.";
+"detail_price_user_logged_out" = "Please log in with your Fuel &amp; Charge account to see the tariffs applicable.";
+"common_cancel" = "Cancel";
+"details_error_message_header" = "You are not registered.";
+"details_error_message" = "This feature is only available to users logged in with a Fuel &amp; Charge Card.";
+"common_reset" = "Reset";
+"from_starting" = "Starting from";
+"one_time_code" = "One-Time Code";
+"common_code" = "Pin";
+"new_password" = "New Password";
+"password_again" = "Repeat Password";
+"month_abreviation" = "MM";
+"set_password_title" = "Set Password";
+
+/*Context? Where is this used? There is an additional label available with linked variables.*/
+"agree_tos_privacy_policy" = "I agree to the Terms of Use and the Data Privacy Statement.";
+"charging_here" = "You are charging here: ";
+"finish_charging" = "Finish Charging";
+"charging_finished_header" = "Finished";
+"charging_finished_farewell" = "We hope you had a good charging experience! Your session will be invoiced through your Fuel & Charge Card.";
+"charging_disconnect_vehicle" = "Please disconnect your vehicle now and have a safe drive.";
+"charging_satisfied" = "Are you satisfied with your charging experience?";
+"common_close" = "Close";
+"charging_initiating_session" = "Initiating your\\n charging session...";
+"charging_step_2" = "If the charging port on the station is locked,\\n press 'Start Charging' first and then connect\\n the charging cable.";
+"charging_step_3" = "Do not forget: At some locations, additional\\n fees may apply after a certain period. Please\\n check the tariff and local signage.";
+"evse_id" = "EVSEID";
+"charging_charge" = "Charge";
+"charging_currently_charging" = "Currently charging your car";
+"charging_currently_charging_return" = "Click for returning to session.";
+"forgot_password_send_email" = "Please enter your e-mail address below to be sent an e-mail with your one-time code. Enter this code on the following screen to reset your password.";
+
+/*url for reporting an issue inside the detail view*/
+"report_problems_url" = "https://docs.google.com/forms/d/e/1FAIpQLSeiJdiqdYYfd9Zs-WnfcWD0-yuZ3nS2mLPnU-ShF4gBz9hHAQ/viewform?usp=pp_url&entry.1046026063=";
+
+/*string to localize link inside agree_tos_privacy_policy*/
+"terms_of_use" = "Terms of Use";
+
+/*string to localize link inside agree_tos_privacy_policy*/
+"privacy_policy" = "Data Privacy Statement";
+"operator" = "Operator";
+"last_search_request" = "Recently searched";
+"search" = "Search for a location";
+
+/*My*/
+"welcomeCell3_my" = "My";
+
+/*By tapping "Continue" and using the app you agree to the ${terms_of_use} and ${privacy_policy}.*/
+"welcomeCell3_text1" = "By tapping \"Continue\" and using the app you agree to the ${terms_of_use} and the ${privacy_policy}.";
+
+/*Terms of use*/
+"welcomeCell3_text1_terms_placeholder" = "Terms of Use";
+
+/*Privacy policy*/
+"welcomeCell3_text1_privacy_placeholder" = "Data Privacy Statement";
+
+/*We use analysis tools to continuously improve your app experience. You can manage the usage of your data in the Settings section anytime.*/
+"welcomeCell3_text2" = "We use analytics to continuously improve your app experience. You can manage the usage of your data in your account settings at any time.";
+
+/*I would like to anonymously help to improve the app.*/
+"welcomeCell3_option_text" = "I would like to help improve the app anonymously.";
+"one_time_code_email" = "One-Time Code (received via e-mail)";
+"register_error" = "We could not register your account due to an internal error. Please try again later.";
+"common_status_400" = "Something went wrong. Please try again later.";
+"common_status_401" = "Your provided credentials were not correct. Please type in and try again.";
+"common_status_418" = "You are already registered with an account. Please use the login.";
+"common_status_404" = "We could not find your provided credentials. Please check your information and try again.";
+"common_status_500" = "Something went wrong. Please try again later.";
+
+/*Text to display when user tries to register without accepting terms*/
+"register_terms_and_conditions_not_agreed" = "You must agree to the Terms of Use and our Data Privacy Statement before finishing the registration.";
+
+/*Text for toast indicating password and password confirmation don't match*/
+"passwords_dont_match" = "Passwords do not match. Please type again.";
+
+/*Text for toast indicating email is wrongly formatted*/
+"email_wrongly_formatted" = "Invalid e-mail address format.";
+
+/*Text for toast indicating the given card is already assigned to a user*/
+"registration_card_already_assigned" = "An account has been registered already for your card.";
+"status_401_token_expired" = "Your session has expired. Please log in again.";
+"agree_tos_privacy_policy_placeholders" = "I agree to the ${terms_of_use} and the ${privacy_policy}.";
+"menu_manage_account" = "Manage Account";
+
+/*@Mica: Changed Miles to Imperial*/
+"distance_format_miles_android_only" = "%1$.2f Miles";
+
+/*@Mica: Changed Kilometer to Metric*/
+"distance_kilometers" = "Kilometers";
+
+/*@Mica: changed Miles to Imperial*/
+"distance_miles" = "Miles";
+
+/*@mica: Changed it to system of unit*/
+"distance_units_header" = "Distance Units";
+"my_charge_card" = "My Fuel & Charge Card";
+"change_password" = "Change Password";
+"change_email" = "Change E-Mail Address";
+"my_profile" = "My Profile";
+
+/*Used as both menu entry and My Account page headline*/
+"my_account" = "My Account";
+"delete_account" = "Delete Account";
+"share_user_data" = "Share usage data anonymously";
+"yes" = "Yes";
+"no" = "No";
+"share_anonymously_disclaimer" = "Our data privacy statement explains how this information helps us improve your app experience.";
+"account_management_my_profile_instructions" = "Change your profile details here for personalizing your app.";
+"common_submit" = "Save";
+"change_password_disclaimer" = "To change your password, please enter your current password and set a new one.";
+"old_password" = "Current Password";
+"change_card_disclaimer" = "Replace your existing Fuel & Charge Card by putting in the information of the new card below and tapping on 'Save'.";
+"delete_account_disclaimer" = "Are you sure you want to delete your entire account data, including your login, the association with the Fuel & Charge Card, and everything else?";
+"delete_account_question" = "Delete Account?";
+"delete" = "Delete";
+"toast_user_logout" = "You have been logged out from the app.";
+
+/*URL for the user feedback*/
+"charging_feedback" = "https://docs.google.com/forms/d/e/1FAIpQLScNMtImBHJ-4nym_v7dNcJy8Dp-tFmPcUrEFiaFIv7Ke8iwlQ/viewform?usp=pp_url&embedded=true&entry.2035788457=";
+"remote_cp_occupied" = "This charge point is currently occupied.";
+"change_password_successful" = "Your password has been changed successfully.";
+"change_data_successful" = "Your data has been updated successfully.";
+"imprint_text_13_link" = "https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home.chooseLanguage";
+"year_abbreviation" = "YY";
+
+/*Headline of QR-Code Page*/
+"remote_qr_code_scan_hint" = "Scan QR-Code";
+"common_ok" = "OK";
+"user_location_android_only" = "Your Location";
+"reset_password_title" = "Reset Password";
+
+/*Add your own vehicle*/
+"vehicles_add_new" = "Add your own vehicle";
+
+/*Text of the Start view of the vehicle flow*/
+"vehicles_start_text" = "Add your own vehicle for filtering for suitable charging stations and using it for calculations.";
+
+/*CTA on the Start view of the vehicles flow*/
+"vehicles_choose_vehicle" = "Choose vehicle";
+"filter_power_value_all" = "All";
+"filter_power_value_1" = "3.7";
+"filter_power_value_2" = "11";
+"filter_power_value_3" = "22";
+"filter_power_value_4" = "43";
+"filter_power_value_5" = "150";
+"filter_power_value_6" = "300+";
+
+/*Title of the vehicle model search view*/
+"vehicles_search_title" = "Vehicle\nModel & Version";
+
+/*Cannot find your vehicle?*/
+"vehicles_cannot_find" = "Cannot find your vehicle?";
+
+/*Vehicle search report button*/
+"vehicles_report" = "Let us know";
+
+/*My vehicle page title*/
+"vehicles_current_vehicle" = "Your Current Vehicle";
+
+/*Select another vehicle button inside my vehicle view*/
+"vehicles_select_another" = "Select another vehicle";
+
+/*My vehicle usage information disclaimer*/
+"vehicles_usage_disclaimer" = "This vehicle is used for showing you suitable charging stations and calculations. It is stored in your account.";
+
+/*Show details button from My Vehicle view*/
+"vehicles_show_details" = "Show vehicle details";
+"common_find_route" = "Find a route";
+"common_choose_navigation" = "Which of your navigation apps do you want to use?";
+
+/*No available connection title on Makers list*/
+"vehicles_no_connection_title" = "No connection";
+
+/*No available connection title on Makers list*/
+"vehicles_no_connection_message" = "There was an error with establishing a connection. Please try again.";
+
+/*Retry button text when network fails on Makers view*/
+"vehicles_retry_button" = "Retry";
+
+/*Battery capacity hint inside vehicle detail*/
+"vehicle_battery_capacity" = "Battery capacity:";
+
+/*Compatible connectors hint inside vehicle detail*/
+"vehicle_compatible_connectors" = "Compatible connector types";
+
+/*Vehicle information title*/
+"vehicle_information" = "Vehicle information";
+
+/*Max range title inside Vehicle detail*/
+"vehicles_max_range" = "Range (WLTP)";
+
+/*CAN BE REMOVED THEN*/
+/*Purchase price inside vehicle detail view*/
+/*Fuzzy*/
+"vehicles_purchase_price" = "Purchase price";
+
+/*Max speed title inside vehicle detail view*/
+/*Fuzzy*/
+"vehicles_max_speed" = "Max speed";
+
+/*Power hint inside vehicle detail view*/
+"vehicles_power" = "Max. power";
+
+/*Selected hint for vehicles detail view*/
+"vehicles_selected" = "Selected";
+"show_available_cp" = "Show available charging stations only";
+
+/*Filter by my vehicle hint*/
+"filter_by_my_vehicle" = "Filter by my vehicle";
+
+/*@Mica: Added disclaimer*/
+"set_password" = "We have sent a one-time code to your specified e-mail address. (Please also check your spam-folder.)\nEnter it here and set your new password.";
+"vehicle_details_header" = "Vehicle Details";
+
+/*Report vehicle not found on vehicle list*/
+"vehicles_report_problems_url" = "https://docs.google.com/forms/d/e/1FAIpQLSdV_uJnIC66ndNUhaKLb5SsRIODuBSFFrg0WZH3s2ZANkXcCQ/viewform?usp=sf_link";
+"register_password_requirements" = "Please try again with at least one capital letter, special character, and number.";
+
+/*Consumption hint inside vehicle details*/
+"vehicles_consumption" = "Consumption";
+"change_password_not_empty" = "Your current password must not be empty.";
+
+/*Headling for action sheet when choosing third party navigation providers*/
+"third_party_navigation_headline" = "Routing to charging station";
+"START_ACCEPTED" = "Your charging session has been started.";
+"START_REJECTED" = "The charging station was unable to initiate the charging session. Please try again or use your Fuel & Charge Card.";
+"STOP_REJECTED" = "The charging session could not be stopped remotely. Please try to stop it manually with your Fuel & Charge Card.";
+"FINISHED" = "Your charging session has ended. Please disconnect your vehicle and free-up the charging station for next users.";
+
+/*Fast - Rapid - Ultra-Fast
+Charging power categories as agreed with BP for UK market.*/
+"vehicle_power_filter_normal" = "Fast";
+
+/*Fast - Rapid - Ultra-Fast
+Charging power categories as agreed with BP for UK market.*/
+"vehicle_power_filter_fast" = "Rapid";
+
+/*Fast - Rapid - Ultra-Fast
+Charging power categories as agreed with BP for UK market.*/
+"vehicle_power_filter_ultrafast" = "Ultra-Fast";
+"registration_your_card_no" = "Your Card No.";
+"filter_power_info_text" = "By setting the filter to min. 3.7 kW, charge points without power information are not displayed.";
+"no_recent_search_results" = "Your last search results appear here.\nCurrently no search has been performed.";
+"otp_validation_error" = "The code needs to be at least 6 digits long.";
+"remote_qr_code_scan_instructions" = "Hold up the camera over the QR-code of the charging station.";
+"common_skip_enter_manually" = "Skip and enter manually";
+"welcome_already_registered_login" = "Already registered? Log in here!";
+"filter_authentication_title" = "Accepted authentication";
+
+/*Explanation for the change of distance units in the settings page*/
+"distance_units_explanation" = "The units selected will apply throughout the app.";
+
+/*Settings entry on the menu*/
+"menu_settings" = "Settings";
+
+/*Text for "skip and enter manually button" in qr scanner*/
+"remote_qr_code_scan_enter_manually" = "Skip and enter manually";
+
+/*Text for data privacy menu entry*/
+"menu_data_privacy" = "Data Privacy";
+
+/*@I think "v" should be enough to recognise the version*/
+/*Fuzzy*/
+"common_version" = "v";
+
+/*Text for filter item payment via app*/
+"filter_payment_app" = "App";
+
+/*Text for filter item payment via card*/
+"filter_payment_card" = "F&C Card";
+
+/*Since we have "Accepted" word in detailed charging station overview*/
+/*Text for payment section in filter view*/
+"filter_accepted_authentication" = "Accepted";
+"error_card_already_assigned" = "Card number is already used by another user.";
+"error_card_not_found" = "Card number was not found. Please contact your fleet manager.";
+"error_card_not_activated" = "Card number is not yet activated. Please try again after some time.";
+
+/*@Mica: I suggest to use  (Term of Use)*/
+/*Header for terms of use button on Imprint page*/
+"terms_of_use_header" = "Our agreement with you";
+
+/*Title of the Drive Safely modal*/
+"drive_safely_title" = "Drive responsibly!";
+
+/*Description text on the Driving Safety Notice component.
+(recently adapted as per recommendation from UK)*/
+"drive_safely_text" = "We always emphasize driver safety and social responsibility. In accordance with traffic regulations please don't use your app while driving. For the safety of yourself and others around you, please keep your eyes on the road.";
+
+/*Wouldn't fit "OK, I got it" here better?*/
+"drive_safely_cta" = "I understand";
+"drive_safely_switch_text" = "Don't show this notice again until the next update";
+
+/*Text for otp timer*/
+"register_otp_time_to_expire" = "Time to expire";
+
+/*Text for otp expired message*/
+"register_otp_expired" = "Code expired!";
+
+/*We always refer to a "one-time code", instead of a "one-time password".*/
+/*Text for request otp again button*/
+"register_otp_request_again" = "Resend code";
+
+/*Login disclaimer inside a location cell*/
+"login_to_see_tariff_details" = "Login to see tariff details";
+"detail_information_correct_body_3" = "to report issues with the information displayed on this page.";
+"additional_location_free_publicly_accessible" = "Publicly accessible - Free access";
+"additional_location_restricted_access" = "Restricted access";
+"additional_location_paid_publicly_accessible" = "Publicly accessible - Paid access";
+"additional_location_test_station" = "Test charging station";
+"additional_location_on_street" = "On-street parking";
+"additional_location_parking_garage" = "Parking garage";
+"additional_location_underground_garage" = "Underground garage";
+"additional_location_parking_lot" = "Parking lot";
+"additional_location_other" = "Other";
+"additional_location_hotel" = "Hotel";
+"additional_location_restaurant" = "Restaurant";
+"additional_location_cafe" = "Coffee shop";
+"additional_location_mall" = "Shopping center";
+"additional_location_supermarket" = "Supermarket";
+"additional_location_sport" = "Sports facilities";
+"additional_location_recreation_area" = "Recreation area";
+"additional_location_nature" = "Nature";
+"additional_location_museum" = "Museum";
+"additional_location_bus_stop" = "Bus stop";
+"additional_location_taxi_stand" = "Taxi stand";
+"additional_location_train_station" = "Train station";
+"additional_location_airport" = "Airport";
+"additional_location_carpool_parking" = "Carpool parking";
+"additional_location_fuel_station" = "Fuel station";
+"additional_location_wifi" = "Internet available";
+"additional_location_ev_only" = "Electric vehicles only";
+
+/*Have refined that to match signage at charging station*/
+"additional_location_plugged" = "Parking only when plugged-in";
+"additional_location_disabled" = "Disabled people only";
+"additional_location_customers" = "Customers only";
+"additional_location_motorcycles" = "Motorcycles only";
+
+/*Title of the Location accessibility section*/
+"additional_location_title_accessibility" = "Location accessibility";
+
+/*Title of the "Restrictions" section*/
+"additional_location_title_restrictions" = "Parking restrictions";
+
+/*Title of the "Facilities" section*/
+"additional_location_title_facilities" = "Facilities nearby";
+"additional_location_information_title" = "Additional information";
+"otp_expired_toast_message" = "Please contact us via your fleet manager for further registration assistance.";
+"detail_information_correct_body_2" = "here";
+"detail_information_correct_body_1" = "Click";
+"registration_assistance_message" = "Please contact us via your fleet manager for further registration assistance.";
+"share_anonymously_disclaimer_underline" = "data privacy statement";
+
+/*dialog text when user clicks the qr button being logged out*/
+"qr_logged_out" = "You have to be logged-in for using this feature. Please login.";
+
+/*palceholder text for data privacy link*/
+"share_anonymously_disclaimer_placeholder" = "Our ${privacy_policy} explains how this information helps us improve your app experience.";
+"system_of_units_header" = "System of Units";
+"unit_metric" = "Metric";
+"unit_imperial" = "Imperial";
+
+/*Text for showing error below email confirmation field*/
+"email_confirmation_error" = "The provided e-mail adresses do not match.";
+"email_confirmation_placeholder" = "Confirm e-mail";
+
+/*Fuzzy*/
+"unit_system_metric_km" = "km";
+
+/*Other connector filter*/
+"filter_connector_other" = "Other";
+
+/*"Include X characters" on the password strength indicator*/
+"password_strength_include_characters" = "Include at least 8 characters";
+
+/*"Include X numbers" label inside password strength indicator*/
+"password_strength_include_numbers" = "Include one number";
+
+/*"Include X symbols" on the password strength indicator*/
+"password_strength_include_symbols" = "Include one special character (!?$#@…)";
+"password_strength_weak" = "Weak";
+"password_strength_medium" = "Medium";
+"password_strength_strong" = "Strong";
+"password_strength_headline" = "Strength:";
+"swipe_up_to_dismiss" = "Swipe up to dismiss";
+"map_legend_connector_types" = "CONNECTOR TYPES";
+"map_legend_chargepoint_status" = "STATION AVAILABILITY";
+"map_legend_title" = "Map Legend";
+"map_legend_status_available_chargepoints" = "Available charge points / \\ntotal charge points";
+"map_legend_status_available" = "All or some charge points available";
+"map_legend_status_occupied" = "All charge points occupied";
+"map_legend_status_unknown" = "Out of service or unknown status";
+"one_time_code_info" = "If you do not receive a one-time code in a timely manner, then please contact your fleet manager.";
+"odometer_input_header" = "Odometer Status";
+"odometer_input_explanation_title" = "Update mileage status";
+"odometer_input_explanation_description" = "Fill in the current value of your vehicle's odometer below. It will help to fulfill your company's car policy:";
+"odometer_scan_description" = "Place your vehicle odometer in below's rectangle and press 'Scan' to take a picture";
+"odometer_scan" = "Scan";
+"odometer_only_positive_integers" = "Only positive integer numbers without decimals are allowed.";
+"odometer_invalid_input" = "The entered odometer value is invalid. Please enter or scan your odometer value again.";
+"odometer_capture_header" = "Capture Odometer Status";
+"odometer_alert_title" = "Check Odometer Status";
+"odometer_alert_text" = "The odometer value is lower than the previously provided odometer value or unusual. Please check it again and edit if necessary.";
+"odometer_alert_edit" = "Edit";
+"odometer_alert_confirm" = "Confirm";
+
+/*Clear results button on search page*/
+"search_clear_results" = "Clear list";
+"search_clear_all_confirmation_title" = "Attention";
+"search_clear_all_confirmation_text" = "Do you want to delete all recent search results?";
+"unit_system_imperial_mi" = "mi";
+
+/*Odometer time based notification*/
+"ODOMETER_PROMPT" = "If you have charged your vehicle recently, click here to provide the latest mileage value.";
+"odometer_reminder_title" = "Fill in the current value of your vehicle's odometer";
+"odometer_reminder_text" = "If you have charged your vehicle recently via F&C Card, you can simply provide your odometer value.";
+"odometer_reminder_cta" = "Ok, let's do it";
+
+/*Prompt text for failed ocr recognition*/
+"odometer_scan_failed" = "Could not recognize the scanned odometer value, please try again or input manually.";
+"charging_step_4" = "Charge point may not be available at some point. If you see this problem often, inform our customer service.";
+"menu_charging_history" = "Charging History";
+"language" = "en";
+"charging_history_header" = "Charging History";
+"duration_second" = "second";
+"duration_seconds" = "seconds";
+"duration_minute" = "minute";
+"duration_minutes" = "minutes";
+"duration_hour" = "hour";
+"duration_hours" = "hours";
+"duration_day" = "day";
+"duration_days" = "days";
+"charging_history_total_time" = "Total Time";
+"charging_history_total_energy" = "Total Energy";
+
+/*Please do not translate ${current} and ${total}. Also applies to any further translation containing ${sometext}*/
+"charging_history_results" = "Showing: {current} from {total} result (s)";
+"charging_history_onthego" = "On the go";
+"charging_history_office" = "Office";
+"charging_history_home" = "Home";
+"charging_history_filter_show_only" = "Show only";
+"charging_history_filter_select_timeframe" = "Select timeframe";
+"charging_history_timeframe_all" = "All";
+"charging_history_timeframe_last_week" = "Last week";
+"charging_history_timeframe_last_month" = "Last month";
+"charging_history_timeframe_last_two_months" = "Last 2 months";
+"charging_history_search_hint" = "Search address, city or postcode";
+"charging_history_empty_search" = "No recent search. Type address, city or postcode to start your next search";
+"charging_history_no_cdrs" = "You do not have any charging detailed records.";
+"common_done" = "Done";
+"charging_history_filter_empty" = "Charging history doesn't exist or doesn't match filter criteria";
+"charging_history_details_header" = "Charging session details";
+"common_authorization" = "Authorization";
+"common_session_start" = "Session start";
+"common_session_end" = "Session end";
+"common_duration" = "Duration";
+"charging_history_energy_consumed" = "Energy consumed";
+"charging_history_odometer_status" = "Odometer status";
+"charging_history_legend_title" = "Legend";
+"charging_history_legend_message" = "Total Time and Total Energy dashboard data are adjusted to the specific product you select (On the go, Office, Home) or applying a filter.";
+"charging_history_legend_energy" = "Total amount of energy consumed in kWh";
+"charging_history_legend_time" = "Total amount of charging time duration";
+"charging_history_legend_disclaimer" = "The CDRs are not necessarily shown immediately after the charging session. The CDR receipt and showing depends on the CPO and internal process.";
+"card_authentication" = "Card";
+"app_authentication" = "App";
+
+/*Fuzzy*/
+"charging_history_export_data_buttom_text" = "Export";
+"charging_history_export_start_title" = "Export Charging History";
+"charging_history_export_start_description" = "The export of all charging history records will be sent via email to your registered email address.";
+"charging_history_export_start_button_text" = "Start export";
+"charging_history_export_sent_title" = "Charging History Sent";
+"charging_history_export_sent_description_paragraph_one" = "Your export is completed and the file had been sent to the e-mail address of your account.";
+"charging_history_export_sent_description_paragraph_two" = "Please also check your spam folder in case you are not able to find it.";
+"charging_history_export_error_nav_bar_title" = "Export charging History";
+"charging_history_export_error_description" = "Exporting the charging history is taking longer than expected. You may retry or try later again.";
+"common_authentication" = "Authentication";
+
+/*List title when filtering*/
+/*Fuzzy*/
+"charging_history_based_on_filters" = "Based on your filter:";
+"first_name_not_empty" = "Your first name must not be empty.";
+"last_name_not_empty" = "Your last name must not be empty.";

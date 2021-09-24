@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "odometer_aral.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

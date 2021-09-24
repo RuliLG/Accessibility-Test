@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65.698" height="65.698" viewBox="0 0 65.698 65.698">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px}
+        </style>
+    </defs>
+    <g id="my-vehicle_power" transform="translate(1.5 1.5)">
+        <path id="Pfad_243" d="M9 21.161v-.794a8.36 8.36 0 1 1 16.719 0v.794" class="cls-1" transform="translate(13.989 19.342)"/>
+        <path id="Pfad_244" d="M18.27 5.26L12 24.069" class="cls-1" transform="translate(19.349 7.288)"/>
+        <path id="Pfad_245" d="M7.047 7.507a1.045 1.045 0 1 0 1.045 1.045 1.045 1.045 0 0 0-1.045-1.045" class="cls-1" transform="translate(8.633 11.302)"/>
+        <path id="Pfad_246" d="M19.8 11.257a1.045 1.045 0 1 0 1.042 1.043 1.045 1.045 0 0 0-1.042-1.043" class="cls-1" transform="translate(31.412 18.002)"/>
+        <path id="Pfad_247" d="M18.3 7.507a1.045 1.045 0 1 0 1.04 1.051v-.006a1.045 1.045 0 0 0-1.045-1.045" class="cls-1" transform="translate(28.728 11.302)"/>
+        <path id="Pfad_248" d="M10.047 4.507a1.045 1.045 0 1 0 1.045 1.045 1.045 1.045 0 0 0-1.045-1.045" class="cls-1" transform="translate(13.993 5.943)"/>
+        <path id="Pfad_249" d="M55.129 23.743a43.9 43.9 0 0 0-52.56 0" class="cls-1" transform="translate(2.5 24.702)"/>
+        <path id="Pfad_250" d="M54.266 9.939a31.349 31.349 0 1 1-44.334 0 31.349 31.349 0 0 1 44.334 0" class="cls-1" transform="translate(-.75 -.757)"/>
+        <path id="Pfad_251" d="M5.547 11.257A1.045 1.045 0 1 0 6.592 12.3a1.045 1.045 0 0 0-1.045-1.045" class="cls-1" transform="translate(5.953 18.002)"/>
+    </g>
+</svg>

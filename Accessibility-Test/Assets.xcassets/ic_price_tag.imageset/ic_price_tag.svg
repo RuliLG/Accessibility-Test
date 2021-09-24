@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+    <defs>
+        <style>
+            .cls-1{fill:#edac1a}
+        </style>
+    </defs>
+    <g id="price">
+        <g id="Gruppe_74">
+            <g id="Gruppe_73">
+                <path id="Pfad_133" d="M33.75 0H20a1.25 1.25 0 0 0-.884.366L.366 19.116a1.25 1.25 0 0 0 0 1.767l13.75 13.75a1.25 1.25 0 0 0 1.767 0l18.75-18.75A1.25 1.25 0 0 0 35 15V1.25A1.25 1.25 0 0 0 33.75 0zM32.5 14.483L15 31.983 3.017 20l17.5-17.5H32.5z" class="cls-1"/>
+            </g>
+        </g>
+        <g id="Gruppe_76" transform="translate(22.668 4.933)">
+            <g id="Gruppe_75">
+                <path id="Pfad_134" d="M310.9 68.267a3.7 3.7 0 1 0 3.7 3.7 3.7 3.7 0 0 0-3.7-3.7zm0 4.933a1.233 1.233 0 1 1 1.233-1.233A1.233 1.233 0 0 1 310.9 73.2z" class="cls-1" transform="translate(-307.196 -68.267)"/>
+            </g>
+        </g>
+    </g>
+</svg>
